@@ -1,0 +1,14 @@
+dn: cn=ldapuser3,ou=Group,dc=linuxacademy,dc=com
+changetype: modify
+replace: gidNumber
+gidNumber: 7003
+
+dn: cn=ldapuser1,ou=Group,dc=linuxacademy,dc=com
+changetype: modify
+replace: gidNumber
+gidNumber: 7001
+
+dn: cn=ldapuser2,ou=Group,dc=linuxacademy,dc=com
+changetype: modify
+replace: gidNumber
+gidNumber: 7002
